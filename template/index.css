@@ -10,7 +10,6 @@
     /* Font Family's */
     --headers: 'Abril Fatface';
     --default: 'Cantarell';
-    --bold: 'Cantarell Bold';
     --code: 'Ubuntu Mono';
 }
 
@@ -28,7 +27,7 @@ h1, h2, h3, h4, h5 {
     font-family: var(--headers);
 }
 b {
-    font-family: var(--bold);
+    font-family: var(--default);
     font-weight: bold;
 }
 .navigation a {
