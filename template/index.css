@@ -1,0 +1,59 @@
+/* IMPORTING FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* VARIABLES */
+:root {
+    --color: #2B404A;
+    --background-color: #F2F2F2;
+    --font-size: 16px;
+
+    /* Font Family's */
+    --headers: 'Abril Fatface';
+    --default: 'Cantarell';
+    --bold: 'Cantarell Bold';
+    --code: 'Ubuntu Mono';
+}
+
+/* UNIVERSAL STYLES */
+body {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0 20px;
+    font-family: var(--default);
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--headers);
+}
+b {
+    font-family: var(--bold);
+    font-weight: bold;
+}
+.navigation a {
+    text-decoration: none;
+    color: var(--default);
+}
+
+pre {
+    display: block;
+    background-color: white;
+    overflow: scroll;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+code {
+    font-family: var(--code);
+
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+pre > code {
+    background-color: unset;
+    padding: unset;
+    border-radius: unset;
+}
