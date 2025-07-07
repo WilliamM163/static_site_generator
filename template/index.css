@@ -34,7 +34,11 @@ b {
     text-decoration: none;
     color: var(--default);
 }
-
+img {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+}
 pre {
     display: block;
     background-color: white;
@@ -42,7 +46,6 @@ pre {
     padding: 10px;
     border-radius: 5px;
 }
-
 code {
     font-family: var(--code);
 
@@ -50,7 +53,6 @@ code {
     padding: 3px;
     border-radius: 5px;
 }
-
 pre > code {
     background-color: unset;
     padding: unset;
